@@ -1,0 +1,164 @@
+name: fayoum_university_map
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map: ^4.0.0
+  geolocator: ^9.0.2
+  latlong2: ^0.8.1
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/Fayom/
+    - assets/Fayom/12/2398/
+    - assets/Fayom/12/2399/
+    - assets/Fayom/13/4797/
+    - assets/Fayom/13/4798/
+    - assets/Fayom/14/9594/
+    - assets/Fayom/14/9595/
+    - assets/Fayom/14/9596/
+    - assets/Fayom/14/9597/
+    - assets/Fayom/15/19189/
+    - assets/Fayom/15/19190/
+    - assets/Fayom/15/19191/
+    - assets/Fayom/15/19192/
+    - assets/Fayom/15/19193/
+    - assets/Fayom/15/19194/
+    - assets/Fayom/16/38378/
+    - assets/Fayom/16/38379/
+    - assets/Fayom/16/38380/
+    - assets/Fayom/16/38381/
+    - assets/Fayom/16/38382/
+    - assets/Fayom/16/38383/
+    - assets/Fayom/16/38384/
+    - assets/Fayom/16/38385/
+    - assets/Fayom/16/38386/
+    - assets/Fayom/16/38387/
+    - assets/Fayom/16/38388/
+    - assets/Fayom/17/76756/
+    - assets/Fayom/17/76757/
+    - assets/Fayom/17/76758/
+    - assets/Fayom/17/76759/
+    - assets/Fayom/17/76760/
+    - assets/Fayom/17/76761/
+    - assets/Fayom/17/76762/
+    - assets/Fayom/17/76763/
+    - assets/Fayom/17/76764/
+    - assets/Fayom/17/76765/
+    - assets/Fayom/17/76766/
+    - assets/Fayom/17/76767/
+    - assets/Fayom/17/76768/
+    - assets/Fayom/17/76769/
+    - assets/Fayom/17/76770/
+    - assets/Fayom/17/76771/
+    - assets/Fayom/17/76772/
+    - assets/Fayom/17/76773/
+    - assets/Fayom/17/76774/
+    - assets/Fayom/17/76775/
+    - assets/Fayom/17/76776/
+    - assets/Fayom/18/153512/
+    - assets/Fayom/18/153513/
+    - assets/Fayom/18/153514/
+    - assets/Fayom/18/153515/
+    - assets/Fayom/18/153516/
+    - assets/Fayom/18/153517/
+    - assets/Fayom/18/153518/
+    - assets/Fayom/18/153519/
+    - assets/Fayom/18/153520/
+    - assets/Fayom/18/153521/
+    - assets/Fayom/18/153522/
+    - assets/Fayom/18/153523/
+    - assets/Fayom/18/153524/
+    - assets/Fayom/18/153525/
+    - assets/Fayom/18/153526/
+    - assets/Fayom/18/153527/
+    - assets/Fayom/18/153528/
+    - assets/Fayom/18/153529/
+    - assets/Fayom/18/153530/
+    - assets/Fayom/18/153531/
+    - assets/Fayom/18/153532/
+    - assets/Fayom/18/153533/
+    - assets/Fayom/18/153534/
+    - assets/Fayom/18/153535/
+    - assets/Fayom/18/153536/
+    - assets/Fayom/18/153537/
+    - assets/Fayom/18/153538/
+    - assets/Fayom/18/153539/
+    - assets/Fayom/18/153540/
+    - assets/Fayom/18/153541/
+    - assets/Fayom/18/153542/
+    - assets/Fayom/18/153543/
+    - assets/Fayom/18/153544/
+    - assets/Fayom/18/153545/
+    - assets/Fayom/18/153546/
+    - assets/Fayom/18/153547/
+    - assets/Fayom/18/153548/
+    - assets/Fayom/18/153549/
+    - assets/Fayom/18/153550/
+    - assets/Fayom/18/153551/
+    - assets/Fayom/18/153552/
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
